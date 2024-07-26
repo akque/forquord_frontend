@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forquord - Log in</title>
+    <title>Forquord - Sign up</title>
     <link rel="stylesheet" href="./css/nullstyle.css">
     <link rel="stylesheet" href="./css/fonts.css">  
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
     <link rel="stylesheet" href="#" title="theme">
 </head>
 <body>
     <main class="main">
-        <form class="login-form">
-            <p class="form-title">Log in</p>
+        <form class="register-form">
+            <p class="form-title">Sign up</p>
             <div class="form-inputs">
                 <input type="text" class="form-input" placeholder="username" name="username">
                 <input type="password" class="form-input" placeholder="password" name="password">
+                <input type="password" class="form-input" placeholder="confirm password" name="password">
             </div>
-            <button class="form-login-btn">Log in</button>
+            <button class="form-signup-btn">Sign up</button>
             <div class="form-redirect-btn">
                 <p class="form-redirect-text">or</p>
-                <a class="form-redirect-signup-btn" href="register.html">Sign up</a>
+                <a class="form-redirect-login-btn" href="login.html">Log in</a>
             </div>
         </form>
-        <div class="bottom-nav">
-            <a class="forgot-password" href="#">forgot password?</a>
-            <a href="index.html" class="back-text">back to main page</a>
-        </div>
+        <a href="index.html" class="back-text">back to main page</a>
         <script src="./js/theme-change.js"></script>
     </main>
 </body>
