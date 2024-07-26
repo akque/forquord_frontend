@@ -1,0 +1,52 @@
+.main {
+    background: linear-gradient(180.00deg, rgb(33, 33, 33),rgb(16, 16, 16) 98.473%);
+}
+.title {
+    color: rgb(255, 255, 255);
+}
+.subtitle-link {
+    color: rgb(255, 255, 255);
+}
+.bottom-link {
+    color: rgb(255, 255, 255);
+}
+.bottom-theme-btn {
+    color: rgb(255, 255, 255);
+}
+.bottom-theme-btn[data-theme="dark"] {
+    display: none;
+}
+.bottom-theme-btn[data-theme="light"] {
+    display: block;
+}
+.bottom-theme-btn:hover {
+    background: rgb(56, 56, 56);
+}
+.login-form {
+    border: 2px solid rgb(48, 48, 48);
+    background: rgb(31, 31, 31);
+}
+.form-title {
+    color: rgb(255, 255, 255);
+}
+.form-input {
+    background: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+}
+.form-input::placeholder {
+    color: white;
+}
+.form-login-btn {
+    color: rgb(255, 255, 255);
+    background: rgb(56, 56, 56);
+}
+.form-redirect-text {
+    color: rgb(255, 255, 255);
+}
+.form-redirect-signup-btn {
+    background: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+}
+.forgot-password {
+    color: rgb(255, 255, 255);
+}
