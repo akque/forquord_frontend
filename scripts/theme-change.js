@@ -12,9 +12,9 @@ function applyTheme(themeName) {
     document.querySelector('[title="theme"]').setAttribute('href', themeUrl);
 }
 
-let activeTheme = localStorage.getItem('theme')
+let activeTheme = localStorage.getItem('theme');
 
-if (activeTheme == null) {
+if (activeTheme === null) {
     applyTheme("dark")
 }
 else {
